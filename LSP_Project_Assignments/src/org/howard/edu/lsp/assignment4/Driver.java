@@ -8,8 +8,8 @@ public class Driver {
         set1.add(3);
 
         System.out.println("Value of Set1 is: " + set1.toString());
-        System.out.println("Smallest value in Set1 is: " + (set1.isEmpty() ? "Set is empty" : set1.smallest()));
-        System.out.println("Largest value in Set1 is: " + (set1.isEmpty() ? "Set is empty" : set1.largest()));
+        System.out.println("Smallest value in Set1 is: " + (set1.Empty() ? "Set is empty" : set1.smallest()));
+        System.out.println("Largest value in Set1 is: " + (set1.Empty() ? "Set is empty" : set1.largest()));
 
         IntegerSet set2 = new IntegerSet();
         set2.add(3);

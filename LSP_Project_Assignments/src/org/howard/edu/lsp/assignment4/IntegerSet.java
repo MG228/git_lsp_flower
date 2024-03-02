@@ -33,7 +33,7 @@ public class IntegerSet {
      * Returns the number of elements in the set.
      *
      */
-    public int length() {
+    public int len() {
         return set.size();
     }
 
@@ -52,10 +52,10 @@ public class IntegerSet {
     }
 
     /**
-     * Checks if the set contains a specific interger.
+     * Checks if the set contains a specific integer.
      *
      */
-    public boolean contains(int value) {
+    public boolean check(int value) {
         return set.contains(value);
     }
 
@@ -149,7 +149,7 @@ public class IntegerSet {
      * if the set is empty.
      *
      */
-    public boolean isEmpty() {
+    public boolean Empty() {
         return set.isEmpty();
     }
 
