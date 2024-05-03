@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/org/howard/edu/oopfinal/exam/final_spring_2024.docx</name>
+			<type>1</type>
+			<location>/Users/maya3/Desktop/final_spring_2024.docx</location>
+		</link>
+	</linkedResources>
 </projectDescription>
