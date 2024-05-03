@@ -1,14 +1,20 @@
 package org.howard.edu.oopfinal.question3;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
-import org.junit.jupiter.api.Test;
+public class ShapesTest {
+    @Test
+    public void testCreateCircle() {
+        Shapes circle = Refact.createShape("Circle");
+        assertNotNull(circle);
+        assertTrue(circle instanceof Circle);
+    }
 
-class ShapesTest {
-
-	@Test
-	void test() {
-		fail("Not yet implemented");
-	}
-
+    @Test
+    public void testCreateRectangle() {
+        Shapes rectangle = Refact.createShape("Rectangle");
+        assertNotNull(rectangle);
+        assertTrue(rectangle instanceof Rectangle);
+    }
 }
